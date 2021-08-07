@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f424b228e0.js" crossorigin="anonymous"></script>
+    <title>JVM Carpintería</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header class="header" style="z-index: 3;">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">JMV Carpintería</a>
+            <span class="menu-icon"><i class="fas fa-bars"></i></span>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catalogo</a></li>
+                    <li><a href="#acerca">Acerca</a></li>
+                    <li><a href="#ubicacion">Ubicacion</a></li>
+                    <li><a href="#contact-us">Contacto</a></li>
+                    <img src="assets/pixlr-bg-result (2).png" alt="" style="height:70px; width: 105px;">
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" style="z-index: 2;" id="inicio">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="assets/img1_carrousel.jpg" alt="" style="width: 100%;">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="assets/img2_carrousel.jpg" alt="" style="width: 100%;">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="assets/img2_carrousel.jpg" alt="" style="width: 100%;">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="assets/img3_carrousel.jpg" alt="" style="width: 100%;">
+
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!--         <div style="text-align: center;">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+        </div> -->
+        <div class="container">
+            <h2 id="ubicacion"><i class="fas fa-gem me-3"></i>¿Quiénes Somos?</h2>
+            <figure>
+                <img src="assets/pixlr-bg-result (2).png" alt="" style="width:450px ;height:350px ;">
+            </figure>
+            <p>
+                Somos un negocio de carpintería que se dedica a la creación de diseños originales y personalizados,
+                contamos con más de 20 años de experiencia realizando distintos tipos de mobiliario. ¡Nosotros
+                fabricaremos lo que tú desees a tu medida!
+            </p>
+            <h2>Donde nos ubicamos?</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0053813220047!2d-101.62727608523596!3d21.072447285974757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b95f86773dd5f%3A0xa3ac3fc22a3608e4!2sMadre%20In%C3%A9s%20104%2C%20Diez%20de%20Mayo%2C%2037549%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1625466276224!5m2!1ses-419!2smx"
+                width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <h1 id="catalogo">Galeria</h1>
+        <div class="container-galery">
+            <div class="item">
+                <img src="assets/catalogo_img1.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Cajonera</h3>
+                    <p>Cerezo.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/catalogo_img2.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Estante Escalera</h3>
+                    <p>Triangular-4 Repisas.</p>
+                </div>
+            </div>
+          
+            <div class="item">
+                <img src="assets/catalogo_img3.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Cajonera</h3>
+                    <p>Balcon-Lombardia.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/catalogo_img4.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Cocina</h3>
+                    <p>Roja-Gris.</p>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <img src="assets/catalogo_img5.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Porta Juego </h3>
+                    <p>Geometria.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/catalogo_img6.jpg" alt="" class="item-img">
+                <div class="item-text">
+                    <h3>Closet Nogal </h3>
+                    <p id="acerca">Cafe-Claro.</p>
+                </div>
+            </div>
+        </div>
+       
+        <section class="contact-us" id="contact-us">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p style="font-size: 25px;" class="heading-summary">¿Quiere trabajar con nosotros en un proyecto futuro? ¡Llena el formulario
+                    para comenzar!</p>
+                <div id="mc_embed_signup">
+                    <form
+                        action="https://gmail.us6.list-manage.com/subscribe/post?u=e95c84769a8f75d5c30c93416&amp;id=c8f23cfaa7"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate> </form>
+                        <div id="mc_embed_signup_scroll">
+
+                       
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-FNAME">Nombre </label>
+                        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-LNAME">Apellido </label>
+                        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Correo Electrónico <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                        <button class="btn submitForm" type="submit">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <ul class="flex-row">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catalogo</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="#ubicacion">Ubicacion</a></li>
+                <li><a href="#contact-us">Contacto</a></li>
+            </ul>
+            <ul class="flex-row">
+                <li>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href=""> <i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-dribbble"></i></a>
+                </li>
+            </ul>
+            <p>&copy; 2021 JVM Carpintería</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
